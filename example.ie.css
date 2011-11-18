@@ -1,0 +1,25 @@
+@import url(example.css);
+
+.b-button,
+.b-head-logo .b-link,
+.l-layout__left,
+.l-layout__right,
+.l-layout__center,
+.b-checkbox,
+.b-quest__item label,
+.b-navigate__item
+{
+    display: inline;
+    zoom: 1;
+}
+
+.b-ad,
+.b-navigate
+{
+    zoom: 1;
+}
+
+.b-button_disabled_yes
+{
+    filter: alpha(opacity = 40);
+}

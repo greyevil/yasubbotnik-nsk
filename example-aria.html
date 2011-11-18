@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=edge">
+    <meta charset="utf-8">
+    <title>Пример для Я.Субботника</title>
+
+    <!--[if gt IE 7]><!--><link rel="stylesheet" href="example.css"><!--<![endif]-->
+    <!--[if lt IE 8]><link rel=stylesheet href="example.ie.css"><![endif]-->
+
+    <script src="//yandex.st/jquery/1.6.2/jquery.min.js"></script>
+
+
+
+</head>
+<body class="b-page">
+
+<div class="l-width">
+    <div class="b-head">
+        <div class="b-search" role="search">
+            <form action="#">
+                <input class="b-search__input" type="text">
+                <div class="b-button b-search__button" tabindex="0" role="button">Искать</div>
+            </form>
+        </div>
+        <div class="b-head-logo" role="banner">
+            <a class="b-link" href="#"><span class="b-head-logo__f">Рога</span> <span class="b-head-logo__s">и</span> <span class="b-head-logo__t">Копыта</span></a>
+        </div>
+    </div>
+
+    <ul class="b-navigate" role="navigation">
+        <li class="b-navigate__item"><a href="?navigate">Заглавная</a></li>
+        <li class="b-navigate__item"><a href="?navigate">Каталог</a></li>
+        <li class="b-navigate__item b-navigate__item_state_current">Эбаут</li>
+        <li class="b-navigate__item"><a href="?navigate">Люди</a></li>
+        <li class="b-navigate__item"><span class="b-pseudo-link" role="link" tabindex="0">Контакты</span></li>
+    </ul>
+
+    <div class="b-ad" role="region" aria-labelledby="ad">
+        <div class="b-add__title aaa" id="ad">Реклама</div>
+        <strong>Почему косвенно управление политическими конфликтами?</strong><br>
+        <a href="?ad">Мы знаем ответ!</a>
+    </div>
+
+    <div class="l-layout">
+        <div class="l-layout__left">
+            <div class="b-quest" role="region" aria-label="Опрос">
+                <div class="b-quest__title">Что вам интересно?</div>
+                <div class="b-quest__item">
+                    <div class="b-checkbox" role="checkbox" aria-checked="false" tabindex="0" onclick="$(this).toggleClass('b-checkbox_state_checked').attr('aria-checked', $(this).attr('aria-checked') == 'true' ? 'false': 'true');" id="quest1"></div><label onclick="$('#'+$(this).attr('for')).click()" for="quest1">Футбол</label>
+                </div>
+                <div class="b-quest__item">
+                    <div class="b-checkbox" role="checkbox" aria-checked="false" tabindex="0" onclick="$(this).toggleClass('b-checkbox_state_checked').attr('aria-checked', $(this).attr('aria-checked') == 'true' ? 'false': 'true');" id="quest2"></div><label onclick="$('#'+$(this).attr('for')).click()" for="quest2">Баскетбол</label>
+                </div>
+                <div class="b-quest__button">
+                    <div class="b-button b-button_disabled_yes" role="button" aria-disabled="yes" tabindex="0">Показать результаты</div>&#0160;<div class="b-button" role="button" tabindex="0">Ответить</div>
+                </div>
+            </div>
+        </div><div class="l-layout__center">
+            <div class="b-content" role="main">
+                <h1>Тема: «Почему косвенно управление политическими конфликтами?»</h1>
+
+                <p>Политическое учение Фомы Аквинского сохраняет теоретический либерализм, говорится в докладе ОБСЕ. Субъект власти, согласно традиционным представлениям, неизбежен. Как известно,
+                   политическая социализация неоднозначна. Феномен толпы неизменяем. Надо сказать, что политическое учение Руссо постоянно. Понятие тоталитаризма практически формирует гуманизм,
+                   что неминуемо повлечет эскалацию напряжения в стране.</p>
+                <p>Понятие политического участия иллюстрирует прагматический англо-американский тип политической культуры, отмечает Б.Рассел. Натуралистическая парадигма обретает либерализм
+                   (приводится по работе Д.Белла "Грядущее постиндустриальное общество"). Иначе<sup>*</sup> говоря, политическое лидерство теоретически формирует марксизм, впрочем, не все политологи разделяют
+                   это мнение. Культ личности практически вызывает конструктивный англо-американский тип политической культуры, отмечает Г.Алмонд. Субъект власти, несмотря на внешние воздействия,
+                   приводит политический процесс в современной России (терминология М.Фуко).</p>
+                <p>Конфедерация предсказуема. Борьба демократических и олигархических тенденций, с другой стороны, очевидна не для всех. Важно иметь в виду, что культ личности ограничивает
+                   идеологический доиндустриальный тип политической культуры, что было отмечено П.Лазарсфельдом. Понятие тоталитаризма, особенно в условиях политической нестабильности, доказывает
+                   тоталитарный тип политической культуры, исчерпывающее исследование чего дал М.Кастельс в труде "Информационная эпоха". Мажоритарная избирательная система однозначно отражает тоталитарный
+                   тип политической культуры, отмечает Б.Рассел. Важно иметь в виду, что субъект политического процесса обретает коллапс Советского Союза, об этом прямо сказано в статье 2 Конституции РФ.</p>
+                <div class="b-note" role="note"><sup>*</sup>&#0160;&#8212; Политическая психология важно сохраняет коммунизм, утверждает руководитель аппарата Правительства. П.Бурдье понимал тот факт, что понятие политического конфликта неизбежно.</div>
+            </div>
+
+        </div><div class="l-layout__right">
+            <div class="b-aside" role="complementary">Политическая элита интегрирует субъект власти, об этом прямо сказано в статье 2 Конституции РФ. Идея правового государства, согласно традиционным представлениям, обретает онтологический коммунизм, о чем писали такие авторы, как Н.Луман и П.Вирилио.</div>
+        </div>
+    </div>
+
+    <div class="b-foot" role="contentinfo">&#0169;2011 "Рога и Копыта"</div>
+</div>
+
+</body>
+</html>
